@@ -82,3 +82,107 @@ section.Home h1 {
 section.Home p {
   font-size: 20px;
 }
+.section {
+  padding: 80px 50px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #222;
+}
+#service {
+  background: #f9f9f9;
+}
+
+#skills {
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  color: #222;
+}
+
+#education {
+  background: #fff;
+}
+
+#experience {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+}
+
+#contact {
+  background: #f4f4f4;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+#skills ul {
+  list-style: none;
+}
+
+#skills li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+.section {
+  padding: 80px 50px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+/* Contact form */
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: yellow;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+  margin-top: 50px;
+}
